@@ -1,0 +1,27 @@
+/*Colors used:
+blush:#F8ECDD
+gold: #E1B15D
+nude: #ECCCAD
+*/
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: 600;
+}
