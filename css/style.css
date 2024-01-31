@@ -25,3 +25,54 @@ h3 {
     font-size: 26px;
     font-weight: 600;
 }
+
+img {
+    width: 100%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F8ECDD;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+}
+
+.button {
+    display: inline-block;
+    background-color: #ECCCAD;
+    color: black;
+    font-weight: 400;
+    padding: 15px;
+}
+
+.button:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.button:active {
+    background-color: #E1B15D;
+}
+
+.button.contact {
+    background-color: transparent;
+    color: black;
+    text-transform: uppercase;
+    border: 2px solid #ECCCAD;
+}
+
+.button.contact:hover {
+    background-color: #ECCCAD;
+}
+
+.button.contact:active {
+    background-color: #E1B15D;
+    
+}
