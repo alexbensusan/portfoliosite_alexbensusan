@@ -16,8 +16,8 @@
 
 <body>
     <header>
-        <div>
-            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 262.02 194.26">
+        <div class="container center">
+            <svg class="logo" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 262.02 194.26">
                 <defs>
                     <style>
                         .cls-1 {
@@ -113,7 +113,7 @@
                 </g>
             </svg>
             <nav>
-                <ul>
+                <ul class="navigation">
                     <li><a href="index.html">Work</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -122,11 +122,15 @@
         </div>
     </header>
     <main>
-        <h1>Pet Shop</h1>
-        <picture>
-            <source media="(max-width:767px)" srcset="img/pet/cover@1x.jpg">
-            <img src="img/pet/cover@2x.jpg" alt="Pet Shop Image">
-        </picture>
+        <div id="hero">
+            <div class="container">
+                <h1>Pet Shop</h1>
+                <picture>
+                    <source media="(max-width:767px)" srcset="img/pet/cover@1x.jpg">
+                    <img src="img/pet/cover@2x.jpg" alt="Pet Shop Image">
+                </picture>
+            </div>
+        </div>
 
         <h2>PROJECT OVERVIEW</h2>
         <p>Pet Shop is an online pet retailer, designed as a mobile app and desktop project. I established brand
@@ -241,7 +245,7 @@
 </body>
 
 <footer>
-    <div>
+    <div class="container">
         <h2>Get In Touch</h2>
         <p>I'd love to hear from you and help you create beautiful designs! Call: <a href="6104511363">610.451.1363</a>
             <a href="mailto:alexrbensusan@gmail.com" class="button contact">Email Me</a>
@@ -260,7 +264,7 @@
             </svg>
         </a>
     </div>
-    <p>Copyright Alexandra Bensusan 2024</p>
+    <p class="center">Copyright Alexandra Bensusan 2024</p>
 </footer>
 
 </html>
