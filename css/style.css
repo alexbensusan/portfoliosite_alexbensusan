@@ -99,7 +99,7 @@ header {
 
 
 svg {
-    width: 50%;
+    width: 100%;
 
 }
 
@@ -112,6 +112,10 @@ svg {
 /*Layout styling*/
 .container {
     padding: 0 15px
+}
+
+.container.text {
+    max-width: 880px;
 }
 
 .row ::after {
@@ -135,7 +139,7 @@ svg {
 }
 
 .logo {
-    max-width: 250px;
+    max-width: 200px;
 }
 
 nav>ul {
@@ -201,6 +205,7 @@ Medium devices (640px and larger)
     #about-page h3 {
         margin-top: 0;
     }
+    .logo {max-width: 200px;}
 }
 
 /* ==============================
@@ -219,6 +224,10 @@ Large devices (1024px or larger)
         max-width: 1200px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .container.text {
+        max-width: 880px;
     }
 }
 
