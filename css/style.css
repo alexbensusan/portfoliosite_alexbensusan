@@ -83,7 +83,6 @@ a:active {
 
 header {
     background-color: #ECCCAD;
-    text-align: center;
     padding: 10px 0;
     margin: 0 auto;
     border-bottom: 3px solid #E1B15D;
@@ -139,7 +138,7 @@ svg {
 }
 
 .logo {
-    max-width: 200px;
+    max-width: 150px;
 }
 
 nav>ul {
@@ -147,9 +146,6 @@ nav>ul {
     padding: 0;
 }
 
-nav>ul>li {
-    display: inline-block;
-}
 
 nav>ul>li>a {
     padding: 0 10px;
@@ -178,6 +174,10 @@ nav>ul>li>a:active {
     box-sizing: border-box;
 }
 
+.navtoggle li:not(:last-child) {
+    display: none;
+}
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -185,6 +185,10 @@ Medium devices (640px and larger)
     header {
         text-align: unset;
         padding: 20px 0 13px;
+
+        .logo {
+            max-width: 200px;
+        }
     }
 
     nav {
@@ -205,7 +209,22 @@ Medium devices (640px and larger)
     #about-page h3 {
         margin-top: 0;
     }
-    .logo {max-width: 200px;}
+
+    .logo {
+        max-width: 200px;
+    }
+
+    nav>ul>li {
+        display: inline-block;
+    }
+
+    .navtoggle li:not(:last-child) {
+        display: inline-block;
+    }
+
+    .navtoggle li:last-child {
+        display: none;
+    }
 }
 
 /* ==============================
