@@ -83,7 +83,7 @@ a:active {
 
 header {
     background-color: #ECCCAD;
-    padding: 10px 0;
+    padding: 10px 0 4px;
     margin: 0 auto;
     border-bottom: 3px solid #E1B15D;
     position: relative;
@@ -94,6 +94,7 @@ header {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
     -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+
 }
 
 
@@ -144,6 +145,7 @@ svg {
 nav>ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 
@@ -177,6 +179,22 @@ nav>ul>li>a:active {
 .navtoggle li:not(:last-child) {
     display: none;
 }
+
+.navtoggle,.navtoggle.responsive {
+    position: relative;
+}
+
+.navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    font-size: 20px;
+    padding-right: 0
+}
+.navtoggle.responsive li  {
+    display: block;
+  }
+
 
 /* ==============================
 Medium devices (640px and larger)
@@ -213,18 +231,16 @@ Medium devices (640px and larger)
     .logo {
         max-width: 200px;
     }
-
     nav>ul>li {
         display: inline-block;
     }
-
+  
     .navtoggle li:not(:last-child) {
         display: inline-block;
     }
+    nav>ul{margin: 1em 0;}
 
-    .navtoggle li:last-child {
-        display: none;
-    }
+  
 }
 
 /* ==============================
@@ -248,6 +264,13 @@ Large devices (1024px or larger)
     .container.text {
         max-width: 880px;
     }
+
+    nav>ul {
+        margin: 1em 0;
+    }
+    .navtoggle li:last-child {
+        display: none;
+      }
 }
 
 /* ==============================
@@ -263,6 +286,9 @@ X-large devices (1440px or larger)
     to {
         fill: #f76414;
     }
+    .navtoggle li:last-child {
+        display: none;
+      }
 }
 
 .sun {
