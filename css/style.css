@@ -52,7 +52,7 @@ a:active {
     text-decoration: none;
     padding: 15px;
     border-radius: 3px;
-    border-bottom: 2px solid E1B15D;
+    border-bottom: 2px solid #E1B15D;
     transition: 0.2s opacity;
 }
 
@@ -87,8 +87,8 @@ header {
     margin: 0 auto;
     border-bottom: 3px solid #E1B15D;
     position: relative;
-    .css-box-shadow width: [object Object]px;
-    height: [object Object]px;
+ } .css-box-shadow {width: 10px;
+    height: 10px ;
     background: #F8ECDD;
     border: solid #BDBDBD 1px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
@@ -203,7 +203,7 @@ Medium devices (640px and larger)
         text-align: unset;
         padding: 20px 0 13px;
 
-        .logo {
+    }.logo {
             max-width: 200px;
         }
     }
@@ -243,7 +243,7 @@ Medium devices (640px and larger)
       }
     
   
-}
+
 
 /* ==============================
 Large devices (1024px or larger)
